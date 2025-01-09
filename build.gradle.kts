@@ -21,8 +21,6 @@ dependencies {
 
     // QR codes libraries
     implementation("io.nayuki:qrcodegen:1.8.0")
-    implementation("com.google.zxing:core:3.5.3")
-    implementation("com.google.zxing:javase:3.5.3")
 
     // Logging
     implementation("org.slf4j:slf4j-simple:2.0.0")
