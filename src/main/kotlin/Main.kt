@@ -54,6 +54,16 @@ fun main() {
                     )
                 }
 
+                command("help") {
+                    bot.sendMessage(
+                        ChatId.fromId(message.chat.id),
+                        "This bot is designed to generate QR codes easily. " +
+                            "All you have to do is just message me or repay me in general chat for me to send the QR " +
+                            "code of your post!",
+                        replyToMessageId = message.messageId,
+                    )
+                }
+
                 message(Filter.Text and (Filter.Private or (Filter.Group and Filter.Reply))) {
                     sendMessage(bot, message, message.text ?: "Not text :(")
                 }

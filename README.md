@@ -19,7 +19,7 @@ creator=yourname/username/etc
 
 ## TODO list
 
-- [ ] Add "/help" command
+- [x] Add "/help" command
 - [ ] Create tests
 - [ ] Add more QR codes type support
 - [ ] Async
