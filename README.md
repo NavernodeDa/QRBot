@@ -19,10 +19,10 @@ creator=yourname/username/etc
 
 ## TODO list
 
-- [ ] Create tests
-- [ ] Add more QR codes type
-- [ ] Async
 - [ ] Add "/help" command
+- [ ] Create tests
+- [ ] Add more QR codes type support
+- [ ] Async
 
 ## Usage
 - ![](https://avatars.githubusercontent.com/u/57418018?s=24) [Kotlin-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) for Telegram API.
