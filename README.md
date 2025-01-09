@@ -19,10 +19,16 @@ creator=yourname/username/etc
 
 ## TODO list
 
-- [x] Add "/help" command
-- [ ] Create tests
+- [ ] Create test for:
+- - [ ] createQrCode()
+- - [ ] toImage()
+- - [ ] sendMessage()
 - [ ] Add more QR codes type support
+- - [ ] Create database
+- - [ ] Add user to db
+- - [ ] Send him a QR code of his choice (replaceable)
 - [ ] Async
+- [x] Add "/help" command
 
 ## Usage
 - ![](https://avatars.githubusercontent.com/u/57418018?s=24) [Kotlin-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) for Telegram API.
