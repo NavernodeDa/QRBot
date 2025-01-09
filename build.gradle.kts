@@ -1,5 +1,3 @@
-val ktorVersion: String by project
-
 plugins {
     kotlin("jvm") version "2.0.20"
 }
@@ -10,12 +8,14 @@ version = "1.1.0"
 repositories {
     mavenCentral()
     maven("https://jitpack.io")
-    flatDir {
-        dirs("libs")
-    }
 }
 
 dependencies {
+    // Test frameworks
+    testImplementation(kotlin("test"))
+    testImplementation("io.mockk:mockk:1.12.0")
+    testImplementation("com.google.zxing:core:3.5.3")
+
     // Telegram Bot API
     implementation("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.1.0")
 
