@@ -18,11 +18,11 @@ creator=yourname/username/etc
 ```
 
 ## TODO list
-
 - [ ] Create test for:
 - - [ ] createQrCode()
 - - [ ] toImage()
 - - [ ] sendMessage()
+- [ ] Decode QR codes
 - [ ] Add more QR codes type support
 - - [ ] Create database
 - - [ ] Add user to db
