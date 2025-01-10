@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "dev.kumchatka"
-version = "1.1.0"
+version = "1.1.3"
 
 repositories {
     mavenCentral()
@@ -11,10 +11,11 @@ repositories {
 }
 
 dependencies {
-    // Test frameworks
+    // Test libraries
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.12.0")
     testImplementation("com.google.zxing:core:3.5.3")
+    testImplementation("com.google.zxing:javase:3.5.3")
 
     // Telegram Bot API
     implementation("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.1.0")

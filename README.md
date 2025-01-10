@@ -20,9 +20,9 @@ creator=yourname/username/etc
 ## TODO list
 
 - [ ] Create test for:
-- - [ ] createQrCode()
 - - [ ] toImage()
 - - [ ] sendMessage()
+- - [x] createQrCode()
 - [ ] Add more QR codes type support
 - - [ ] Create database
 - - [ ] Add user to db
