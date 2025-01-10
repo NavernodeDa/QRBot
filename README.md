@@ -31,7 +31,7 @@ creator=yourname/username/etc
 - [x] Add "/help" command
 
 ## Usage
-- ![](https://avatars.githubusercontent.com/u/57418018?s=24) [Kotlin-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) for Telegram API.
+- ![](https://avatars.githubusercontent.com/u/57418018?s=24) [Kotlin-telegram-bot](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot) for Telegram API.
 - ![](https://avatars.githubusercontent.com/u/672172?s=24) [QR-Code-generator](https://github.com/nayuki/QR-Code-generator) for generate QR Codes.
 - ![](https://avatars.githubusercontent.com/u/1521407?s=24) [Slf4j](https://github.com/qos-ch/slf4j) for logging.
 - ![](https://avatars.githubusercontent.com/u/56219?s=24) [Konfig](https://github.com/npryce/konfig) for work with properties file.
