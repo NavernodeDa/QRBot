@@ -37,4 +37,4 @@ creator=yourname/username/etc
 - ![](https://avatars.githubusercontent.com/u/56219?s=24) [Konfig](https://github.com/npryce/konfig) for work with properties file.
 
 ## License
-QRBot is under the GNU General Public License v3.0. See the [LICENSE](LICENSE) for more information.
+QRBot is under the MIT License. See the [LICENSE](LICENSE) for more information.
